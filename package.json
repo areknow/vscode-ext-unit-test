@@ -1,5 +1,6 @@
 {
   "name": "vscode-ext-unit-test",
+  "publisher": "areknow",
   "displayName": "vscode-ext-unit-test",
   "description": "test runner",
   "version": "0.0.1",
