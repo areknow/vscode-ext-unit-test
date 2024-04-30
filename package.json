@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/areknow/vscode-ext-unit-test"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.59.0"
   },
