@@ -13,7 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
           (term) => term.name === "vscode-ext-unit-test"
         ) || vscode.window.createTerminal({ name: "vscode-ext-unit-test" });
 
-      terminal.sendText(`clear && yarn test:unit ${openFile} --silent=false`);
+      terminal.sendText(`clear && yarn test:unit ${openFile}`);
       terminal.show();
     }
   );
